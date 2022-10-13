@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+
+    </style>
+</head>
+    
+<body>
+    <header>
+        <h1>Escolhendo personagem</h1>
+    </header> 
+                 
+    <section>
+        <div id = "res" ><strong>Aguardando sua escolha...</strong></div><br/>
+        <div id = "foto" onmouseenter="entrou()" onmouseout="saiu()">
+            <img id="imagem" src="marvelvsdc.png" alt="Foto Personagens">
+        </div> <br/>    
+        <p id= "p1"><strong>Selecione a Liga de sua Preferencia</strong></p> 
+        <p id= "p2"onmouseenter="entrou()" onmouseout="saiu()">
+            <input type="radio" name="txtliga" id="txtperson0" checked>
+            <label for="txtperson"><strong>Marvel</strong></label>
+            <input type="radio" name="txtliga" id="txtpeson1">
+            <label for="txtperson1"><strong>DC</strong></label>
+        </p><br/>
+        <p><strong>Para MARVEL selecione o personagem abaixo</strong></p>
+        <p onmouseenter="entrou()" onmouseout="saiu()">
+            <input type="radio" name="txtperson" id="personagem0" checked>
+            <label for="personagem">Capitão América</label>
+            <input type="radio" name="txtperson" id="personagem1">
+            <label for="personagem1">Homen de Ferro</label>
+        </p>
+        <p><strong>Para DC selecione o personagem abaixo</strong></p>
+        <p onmouseenter="entrou()" onmouseout="saiu()">
+            <input type="radio" name="txtperson" id="personagem2" checked>
+            <label for="personagem">Batiman</label>
+            <input type="radio" name="txtperson" id="personagem3">
+            <label for="personagem1">Superman</label>
+        </p><br/>
+        <p onmouseenter="entrou()" onmouseout="saiu()"><input id= "but" type="button" value="Verificar" onclick="verificar()"></p><br/>
+       
+
+    </section>
+    <footer>
+        <p>&copy; Denis Diogo dos Santos</p>
+    </footer>
+    <script src="estilo.JS"></script>
+</body>
+</html>
