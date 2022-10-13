@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifiação de Doença</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diagnostico de Doença</h1>
+    </header>
+    <section>
+        <div><strong><br/> Selecione uma das opçoes para ser diagnosticado...</strong></div>
+        <p>
+            <input type="radio" name="txtdo" id="txtfa" checked >
+            <label for="txtfa">Febre Alta e Dor no Corpo</label>
+        </p>        
+        <p>
+            <input type="radio" name="txtdo" id="txtdc" >
+            <label for="txtfa">Dor no Corpo e Manchas na Pele</label>
+        </p>        
+        <p>
+            <input type="radio" name="txtdo" id="txtmp" >
+            <label for="txtfa">Manchas na Pele e Febre Alta</label>
+        </p>
+        <p><input type="button" value="Verificar" id= "but" onclick="verificar()"></p>
+        <div id = "res"><strong> Aguarde o diagnostico...</strong></br/></strong></div>
+       
+    </section>
+    <footer>
+        <p>&copy; Denis Diogo dos</p>
+    </footer>
+    <script src="estilo.JS"></script>
+</body>
+</html>
