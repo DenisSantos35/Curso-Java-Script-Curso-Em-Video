@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando numeros</title>
+    <style>
+        body{
+            font: normal 18pt arial;
+        }
+        input#mult{
+            font: normal 18pt arial;
+            width: 200px;
+            color: red;
+            background: purple;
+        }
+        input#som{
+            font: normal 18pt arial;
+            width: 200px;
+            color: red;
+            background: purple;    
+        }
+        input{
+            font: normal 18pt arial;
+            width: 200px;
+            color: rgb(15, 15, 15);
+            background: rgb(24, 231, 221); 
+        }
+        div#res{
+            margin-top: 20px; 
+            color: orangered;  
+        }
+        div#res2{
+            margin-top: 20px; 
+            color: orangered;  
+        }  
+        h1#h1{
+            color: blue;
+            font: normal 18pt arial;
+        }
+        h2#h2{
+            color: blue;
+            font: normal 18pt arial;
+        }
+
+
+        
+
+    </style>
+</head>
+<body>
+        
+    <h1 id = "h1"><strong>Somando Valores</strong></h1>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input id = "som" type="button" value="somar" onclick="somar()">
+    <div id = "res"><strong>Resultado</strong></div>
+
+    <h2 id = "h2"><strong>Multiplicando Valores</strong></h2>
+    <input type="number" name="txtn3" id="txtn3"> *
+    <input type="number" name="txtn4" id="txtn4">
+    <input id = "mult" type="button" value="multiplicar" onclick="multiplicar()">
+    <div id = "res2"><strong>Resultado</strong></div>
+
+
+    <script>
+        
+        function somar(){
+            //entrada de dados na variavel
+        var tn1 = window.document.getElementById('txtn1')  //declaraçao de variavel e armazenei a informao do html
+        var tn2 = window.document.querySelector('input#txtn2')//declaraçao de variavel e armazenei a informao do html
+        var result = window.document.getElementById("res")//declaraçao de variavel e armazenei a informao do html
+
+            //conversao de dados de string para number
+        var n1 = Number(tn1.value)
+        var n2 = Number(tn2.value)       
+        
+            //calculo das variaveis
+        var s = n1 + n2    
+            //saida de dados
+        result.innerHTML = `O resultado da soma de ${n1} + ${n2} = <strong>${s}</strong>` 
+        } 
+        function multiplicar(){
+            //entrada de dados na variavel
+        var mult = window.document.getElementById("mult".toUpperCase())
+        var tn1 = window.document.getElementById('txtn3')
+        var tn2 = window.document.querySelector('input#txtn4')
+        var result = window.document.getElementById("res2")
+
+            //conversao de dados de string para number
+        var n1 = Number(tn1.value)
+        var n2 = Number(tn2.value)       
+        
+            //calculo das variaveis
+        var s = n1 * n2    
+            //saida de dados
+         result.innerHTML = `O resultado da multiplicaçao  de ${n1} * ${n2} = <strong>${s}</strong>` 
+        } 
+
+    </script>
+    
+</body>
+</html>
