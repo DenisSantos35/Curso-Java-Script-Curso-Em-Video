@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOCCERFOOTBAL</title>
+    <link rel="stylesheet" href="soccer.css">
+</head>
+<body>
+    <header>
+        ANALISE DE GOLS CAMPEONATO PERNA DE PAU:
+    </header>
+    <section>
+        <div>
+            Nome do jogador: <input type="text" name="nome" id="nome"><br>
+            <input type="button" value="CADASTRAR" onclick="cadastroNome()"><br><br>
+            Quantas partidas jogadas: <input type="number" name="partida" id="partida"><br>
+            <input type="button" value="CADASTRAR" onclick="cadastropartida()"><br><br>
+            <select name="formulario" id="formulario" size="10"></select><br><br>
+            <input type="button" value="STATUS INDIVIDUAIS" onclick="individuais()">
+            <input type="number" name="status" id="status"><br><br>
+            <div id="individual">
+                Aguarde...
+            </div>
+        </div>
+        
+    </section>
+    <footer>
+        &copy; Denis Diogo dos Santos
+    </footer>
+    <script src="soccerFootbal.js"></script>
+    
+</body>
+</html>
