@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voto</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Vota ou Não vota?</h1>
+    <p>Qual a sua idade?<br/> <input type="number" name="idade" id="idade"></br></p>
+    <p><input type="button" value="Verificar" onclick= "votar()"></br></p>
+    <p><div id= "stat">Aguardando Resposta...</p>
+
+    <script>
+        function votar(){
+         //declaraçao de variavel e converçao para numero e valor
+         var idad = Number(window.document.querySelector("input#idade").value)
+         var stat = window.document.querySelector("div#stat")       
+         
+            stat.innerHTML = `Sua idade e de ${idad}</br>`
+            if(idad < 16){
+                stat.innerHTML += "Menor de Idade, Proibido Votar"
+            }else if((idad < 18) || idad > 60){
+                stat.innerHTML += "Nesta idade, Voto Opcional"
+                }else{
+                    stat.innerHTML += "Nesta idade, Voto Obrigatorio"
+                }
+        }
+    </script>
+    
+</body>
+</html>
