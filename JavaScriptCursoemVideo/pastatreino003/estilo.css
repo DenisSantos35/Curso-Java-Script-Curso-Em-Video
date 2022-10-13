@@ -1,0 +1,52 @@
+body{
+    background: rgb(245, 177, 100);
+    color: black;
+    font: normal times;
+}
+header{
+    width: 500px;
+    padding: auto;
+    box-shadow: 20px 15px 20px black;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    background: rgb(233, 123, 20);
+}
+section{
+    width: 300px;
+    padding: auto;
+    box-shadow: 20px 15px 20px black;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    background: rgb(233, 123, 20);
+}
+input#txtn1{
+    border-radius: 15px;
+    box-shadow: 20px 15px 20px black;
+    text-align: center;
+}
+input#txtn2{
+    border-radius: 15px;
+    box-shadow: 20px 15px 20px black;
+    text-align: center;
+}
+input#txtfalt{
+    border-radius: 15px;
+    box-shadow: 20px 15px 20px black;
+    text-align: center;
+}
+input#but{
+    color: white;
+    background: blueviolet;
+    box-shadow: 20px 15px 20px black;
+}
+footer{
+    width: 200px;
+    padding: auto;
+    box-shadow: 20px 15px 20px black;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    background: rgb(233, 123, 20);
+}
