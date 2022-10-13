@@ -1,0 +1,73 @@
+body{
+    font: normal 20pt times;
+    background: blueviolet;
+    text-align: center;
+}
+header{
+    color: white;
+    background: darkorchid;
+    width: 400px center;
+    padding: center;
+    text-align-last: center;
+    border-radius: 50px 50px;
+    box-shadow: 30px 20px 30px 20px black;
+    margin: hig;
+    
+}
+input#calc{
+    background: rgb(230, 5, 5);
+    width: 120px ;
+    padding: auto;
+    margin: auto;
+    border-radius: 50px 50px;
+    box-shadow: 15px 10px 15px 10px black; 
+    color: white;
+}
+input#peso{
+    background: rgb(6, 243, 231);
+    width: 120px ;
+    padding: auto;
+    margin: auto;
+    border-radius: 50px 50px;
+    box-shadow: 15px 10px 15px 10px black; 
+    color: black
+    
+}
+input#altura{
+    background: rgb(6, 243, 231);
+    width: 120px ;
+    padding: auto;
+    margin: auto;
+    border-radius: 50px 50px;
+    box-shadow: 15px 10px 15px 10px black; 
+    color: black
+    
+}
+div#res{
+    background: rgb(230, 5, 5);
+    width: 600px ;
+    padding: auto;
+    margin: auto;
+    border-radius: 50px 50px;
+    box-shadow: 15px 10px 15px 10px black; 
+    color: white;
+}
+
+section{
+    color: white;
+    background: darkorchid;
+    width: 600px ;
+    padding: auto;
+    margin: auto;
+    border-radius: 50px 50px;
+    box-shadow: 30px 20px 30px 20px black;    
+}
+footer{
+    color: white;
+    background: darkorchid; 
+    width: 500px ;
+    padding: auto;
+    margin: auto;
+    border-radius: 50px 50px;
+    box-shadow: 30px 20px 30px 20px black;  
+}
