@@ -1,0 +1,49 @@
+body{
+    background: dimgray;
+    color:white ;
+}
+header{
+    text-align: center;
+    font-style: normal 18pt times;
+    width: 500px;
+    padding: center;
+    background: rgb(31, 216, 216);
+    box-shadow: 20px 15px 20px black;
+    border-radius: 20px;
+    margin: auto;
+    color:black;
+}
+section{
+    width: 500px;
+    padding: center;
+    text-align: center;
+    box-shadow: 50px 25px 50px black;
+    border-radius: 20px;
+    background: rgb(94, 230, 230);
+    margin: auto;
+    color: black;
+}
+input#txtv1{
+    width: 50px;
+}
+input#txtv2{
+    width: 50px;
+}
+input#txtv3{
+    width: 50px;
+}
+div{
+    color: black;
+}
+
+footer{
+    width: 200px;
+    padding: center;
+    text-align: center;
+    box-shadow: 20px 15px 20px black;
+    border-radius: 20px;
+    background: rgb(31, 216, 216);
+    margin: auto;
+    color: black;
+}
+}
