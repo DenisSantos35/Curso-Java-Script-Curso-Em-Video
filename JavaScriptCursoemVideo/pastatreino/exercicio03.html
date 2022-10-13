@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual maior numero</title>
+    <style>
+
+    </style>
+</head>
+<h1>Mostrando maior numero</h1>
+<p>Numero 1: <input type="number" name="n1" id="n1">'</br>'</p>
+<p>Numero 2:<input type="number" name="n2" id="n2"> '</br>'</p>
+<p>Numero 3:<input type="number" name="n3" id="n3"> '</br>'</p>
+<input type="button" value="Verificar" onclick="maior()">
+<div id= "calc">
+
+    <script>
+        function maior(){
+            //declaraçao de variaveis e converçao
+            var nu1 = Number(window.document.querySelector("input#n1").value)
+            var nu2 = Number(window.document.querySelector("input#n2").value)
+            var nu3 = Number(window.document.querySelector("input#n3").value)
+            var msg = window.document.querySelector("div#calc")
+
+            //condiçao para maior
+            if(nu1 > nu2 && nu1 > nu3){
+                msg.innerHTML = `<p>O numero <strong>${nu1}</strong/> e maior que numero <strong> ${nu2}</strong/> e numero <strong>${nu3}</strong/></p>`
+                }else if(nu2 > nu1 && nu2 > nu3){
+                    msg.innerHTML = `<p>O numero <strong>${nu2}</strong/> e maior que numero <strong>${nu1}</strong/> e numero <strong>${nu3}</strong/></p>`
+                    }else{
+                        msg.innerHTML = `<p>O numero <strong>${nu3}</strong/> e maior que numero <strong>${nu1}</strong/> e numero <strong>${nu2}</strong/></p>`
+            }
+        }
+    </script>
+<body>
+    
+</body>
+</html>
