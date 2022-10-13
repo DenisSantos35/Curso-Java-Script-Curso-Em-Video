@@ -1,2 +1,3 @@
-# CursoJavaScript-CursoEmVideo
- Curso Java Script Finalizado Curso em Video
+# Curso Java Script - CursoEmVideo
+
+ Curso Java Script Finalizado - Curso em Video
