@@ -1,0 +1,22 @@
+body {
+    background: blue;
+    font: normal 15pt times;
+}
+header {
+    color: white;
+    text-align: center;
+}
+section {
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 10 15 10 15 black;
+}
+footer {
+    color: white;
+    text-align: center;
+
+}
