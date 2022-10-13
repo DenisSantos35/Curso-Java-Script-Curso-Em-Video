@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">     
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa...</title>
+    <style>
+        body{
+            background-color: rgb(155, 155, 197);   /*esta e a maneira de comentar em css */
+            color: rgb(194, 14, 14);
+            font: normal 20pt arial;
+        }
+        h1{
+            color: rgb(206, 126, 96);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>olá, mundo!!!</h1>    <!--esta e a maneira de comentar em html-->
+    <p>Já me livrei da maldição!!!</p>
+    <script>
+       //var n1 = Number.parseInt( window.prompt('Escreva numero')) //quando no comando tem window o valor recebe string 
+       //var n2 = Number.parseInt(window.prompt('Esvreva o segundo numero')) //Number.parseInt ou Number.parseFloat
+       var n1 = Number( window.prompt('Escreva numero')) //quando no comando tem window o valor recebe string 
+       var n2 = Number(window.prompt('Esvreva o segundo numero')) //Number.parseInt ou Number.parseFloat 
+     // utilza para converter string para number
+       var s = n1 + n2
+       window.alert(`A soma de ${n1} + ${n2} = ${s} `)
+       //window.alert('a soma de = ' + s)
+      // window.alert('a soma de = ' + s.toString)
+     // window.alert('a soma de = ' + string(s))
+       //(number + number) = o + representa soma
+       //(string + string) = o + representa concatenação
+       
+    </script>
+</body>
+</html>
