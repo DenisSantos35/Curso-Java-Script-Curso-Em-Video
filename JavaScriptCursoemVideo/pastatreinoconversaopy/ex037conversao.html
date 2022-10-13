@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio conversao</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor Binario, Octal, HexaDecimal</h1>
+    </header>
+    <section>
+        <p>Digite o numero a ser convertido: <input type="number" name="numero" id="numero"></p>
+        <div>ESCOLHA A OPÇÃO DESEJADA</div>
+        <p>
+            <input type="radio" name="conversao" id="binario" >
+            <label for="binario"><strong>[1]Binario</strong></label></br>
+            <input type="radio" name="conversao" id="octal">
+            <label for="octal"><strong>[2]Octal</strong></label></br>
+            <input type="radio" name="conversao" id="hexadecimal">
+            <label for="hexadecimal"><strong>[3]HexaDecimal</strong></label></br>
+        </p>
+        <p><input type="button" value="calcular" onclick="calcular()"></p>
+        <div id="resu" >Aguardando Resultado...</div>
+    </section>
+    <footer>
+        &copy; Denis Diogo dos Santos
+    </footer>
+    <script src="estilo.Js"></script>
+</body>
+
+</html>
