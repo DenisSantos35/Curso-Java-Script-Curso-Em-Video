@@ -1,0 +1,64 @@
+body{
+    font: normal 12pt times;
+    background: rgb(85, 231, 231);
+    
+}
+header{
+    color: white;
+    background: rgb(40, 230, 230);
+    width: 600px;
+    padding: auto;
+    text-align: center;
+    margin: auto;
+    box-shadow: 30px 15px 30px 15px black;
+    border-radius: 15px 0px 15px 0px;
+    font: normal 18pt times;
+}
+section{
+    color: black;
+    width: 365px;
+    padding: auto;
+    text-align: center;
+    margin: auto;
+    box-shadow: 30px 15px 30px 15px black;
+    border-radius: 15px 15px 15px 15px;
+    background: greenyellow; 
+    font: normal 18pt times;  
+}
+input#codigo{
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px black;
+    text-align: center;
+    background: gray;
+    color:white;
+}
+input#quantidade{
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px black;
+    text-align: center;
+    background: gray;
+    color:white;
+}
+p#p1{
+    color: black;
+    width: 500px;
+    padding: auto;
+    text-align: center;
+    margin: auto;
+    box-shadow: 10px 5px 10px black;
+    border-radius: 15px 15px 15px 15px;
+    background: rgb(32, 120, 219);
+}
+
+
+footer{
+    color: white;
+    width: 500px;
+    padding: auto;
+    text-align: center;
+    margin: auto;
+    box-shadow: 10px 5px 10px  black;
+    border-radius: 15px 15px 15px 15px;
+    background: rgb(230, 21, 21);
+
+}
