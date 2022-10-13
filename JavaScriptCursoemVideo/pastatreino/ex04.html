@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saudação</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Saudando conforme horario</h1>   
+    <p>Qual horario do Dia? <input type="number" name="hora" id="hora">hrs</br></p>
+    <p><input type="button" value="Saudar com" onclick="horario()"></br></p>
+    <div id = "msg">Aguarde para ser saudado com...</div>
+
+    <script>
+        function horario(){
+            //declaraçao de variavel e conversão de numero
+            var hr = Number(window.document.querySelector("input#hora").value)
+            var msg1 = window.document.querySelector("div#msg")
+            //mensagem inicial
+            msg1.innerHTML =`Agora são ${hr} horas</br></br>`
+
+            //condiçoes para ser saudado
+            if(5 <= hr && hr <12){
+                msg1.innerHTML += "Bom Dia!!!"
+                }else if (12 <= hr && hr < 18){
+                    msg1.innerHTML += "Boa Tarde!!!"
+                    }else if (18 <= hr && hr <= 23.59){
+                        msg1.innerHTML += "Boa Noite!!!"
+                        }else{
+                            msg1.innerHTML += "Jah e Madrugada, vai durmir"
+                        }
+        }
+    </script>
+
+
+
+    
+    
+</body>
+</html>
