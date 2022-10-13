@@ -1,0 +1,50 @@
+body{
+    background: grey;
+    font: normal times;
+
+}
+header{
+    width: 400px;
+    padding: auto;
+    box-shadow: 20px 15px 20px black;
+    background: darkslategrey;
+    text-align: center;
+    border-radius: 30px;
+    margin: auto;
+    color: white;
+
+}
+
+section{
+    width: 400px;
+    padding: center;
+    box-shadow: 20px 15px 20px black;
+    background: darkslategrey;
+    text-align: center;
+    border-radius: 30px;
+    margin: auto;
+    color: white;
+
+}
+input#but{
+    
+    padding: center;
+    box-shadow: 20px 15px 20px black;
+    background: rgb(235, 43, 9);
+    text-align: center;
+    border-radius: 30px;
+    margin: auto;
+    color: white;
+}
+
+footer{
+    width: 200px;
+    padding: center;
+    box-shadow: 20px 15px 20px black;
+    background: darkslategrey;
+    text-align: center;
+    border-radius: 30px;
+    margin: auto;
+    color: white;
+
+}
