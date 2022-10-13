@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(211, 130, 9);
+            color: white;
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1 id = "tit">Aprendendo com DOM</h1>
+    <p>Aqui vai um resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript </p>
+    <p name= "p3">Estou gostando de aprender Js</p>
+    <div class = "esc1">Clique em mim</div>
+    <div class = "esc2">My First Name Denis and My last name Santos</div>
+    <div><strong id = "esc3">Estou aguardando um comando...</strong></div>
+
+    <script>
+         window.document.write('Ola mundo<br/>') //busca na arvore window-document-e escreve ola mundo
+         //busca na arvore window.document e escreve(os comandos que estao aqui)
+         //window.document.write(window.document.charset) 
+         //window.document.write(window.navigator.appName)
+         //window.document.write(window.document.URL)
+            //armazena nas variaveis a busca paragrafo a busca por arvore  entrada de dados
+            //usamos busca por marca comando getElementsByTagName quando existe mais de 1 elemento
+            //getElementById quando existe uma tag ou elemento
+         var fatherb = window.document.body
+         var titlo = window.document.getElementById("tit") //selecao por ID
+         var paragrafo1 = window.document.getElementsByTagName('p')[0] //seleçao por MARCA
+         var paragrafo2 = window.document.getElementsByTagName('p')[1] //seleçao por MARCA
+         var paragrafo3 = window.document.getElementsByName("p3")[0] //seleçao por NOME
+         var escopo = window.document.querySelector("div.esc1") //seleçao por SELECTOR CLASS
+         var escopo1 = window.document.getElementsByClassName("esc2")[0] //seleçao por classname
+         var escopo2 = window.document.querySelector("strong#esc3") //seleçao por SELECTOR name
+            //pede pela busca em arvore escrever o valor da variavel por innerText saida de dados
+         window.document.write('O titlo da pagina é : ' + titlo.innerText)
+         window.document.write('</br>O primeiro paragrafo da pagina é :' + paragrafo1.innerText ) 
+         window.document.write('</br>O segundo paragrafo da pagina é :' + paragrafo2.innerText )
+         window.document.write('</br>O terceiro paragrafo da pagina é :' + paragrafo3.innerText)
+         window.document.write('</br>O escopo 1 da pagina é :' + escopo.innerText)
+         window.document.write('</br>O escopo 2 da pagina é :' + escopo1.innerText)
+         window.document.write('</br>O escopo 3 da pagina é :' + escopo2.innerText)
+            // mudando cor palavra busca (variavel - style - color)
+            // mudando cor pagina
+         titlo.style.color = 'red'
+         titlo.style.background = 'yellow'
+         paragrafo1.style.color = 'purple'
+         paragrafo1.style.background = 'white'
+         paragrafo2.style.color = 'darkblue'
+         paragrafo2.style.background = 'pink'
+         escopo.style.color = 'black'
+         escopo.style.background = 'green'
+         escopo1.style.color = 'orange'
+         escopo1.style.background = 'red'
+         escopo2.style.color = 'brown'
+         fatherb.style.background = 'black'
+         
+            //mudando texto dentro da tag, busca variavel, innertext = novo texto
+          escopo.innerText = "Estou aguardando o comando..."
+          escopo2.innerText = "Clique Aqui..."
+         
+
+         
+    
+         
+
+         
+         
+         
+       
+
+
+
+        
+    </script>
+    
+</body>
+</html>
