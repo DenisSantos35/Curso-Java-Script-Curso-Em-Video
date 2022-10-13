@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Alunos</title>
+    <style>
+        body{
+            background: rgb(25, 190, 163);
+            color: rgb(218, 6, 6);
+            font: normal 16pt arial;
+        }
+        h1{
+            color: rgb(4, 7, 207);
+            font: normal 18pt arial;
+        }
+        input{
+            width: 100px;
+            line-height: 50px;
+            background: darkmagenta;
+            color: white;
+            margin-left: center;
+            font: normal 14pt arial;
+        }
+        input#calc{
+            background: red;
+            color: white;
+            margin-left: center;
+            font: normal 14pt arial;
+        }
+        div{
+            color: rgb(230, 16, 158);
+            
+        }
+        
+
+        
+    </style>        
+</head>
+    
+<body>
+    <h1>Digite Nota do Aluno </h1>
+    1ª Nota : <input type="number" name="n1" id="n1" onmouseenter="cor()" onmouseout="cor2()">
+    2ª Nota : <input type="number" name="n2" id="n2" onmouseenter="cor()" onmouseenter="cor()" onmouseout="cor2()">
+    <input id= "calc" type="button" value="Calcular" onclick = "calcular()">
+    <div id= "media">Aguardando Calculo...</div>
+
+    <script>
+        function calcular(){
+        //declaraçao de variaveis
+        var nt1 = Number(window.document.querySelector("input#n1").value)
+        var nt2 = Number(window.document.querySelector("input#n2").value)
+        var med = window.document.querySelector("div#media")
+        //conversão de variavel
+       // var nt1c = Number(nt1.value)
+       // var nt2c = Number(nt2.value)
+        // calculo media
+        var medi = Number(nt1 + nt2)/2
+        
+        //processamento de dados notas 
+        if(medi >= 7 && medi < 10){
+            med.innerHTML = `<p>Aluno <strong>Aprovado</strong> com media <strong>${medi}</strong></p>`
+             }else if(medi >= 10){
+                med.innerHTML = `<p>Aluno <strong>Aprovado com Distinçao</strong> com media <strong>${medi}</strong></p> `
+                }else{
+                    med.innerHTML = `<p>Aluno <strong>Reprovado</strong> com media <strong>${medi}</strong></p>`
+                }
+        }
+        function cor(){
+            var nt1 = window.document.querySelector("input#n1")
+            var nt2 = window.document.querySelector("input#n2")
+            nt1.style.background = 'red'
+            nt2.style.background = 'red'
+        }
+        function cor2(){
+            var nt1 = window.document.querySelector("input#n1")
+            var nt2 = window.document.querySelector("input#n2")
+            nt2.style.background = 'darkmagenta'
+            nt1.style.background = 'darkmagenta'
+        }
+        
+
+    </script>
+    
+</body>
+</html>
