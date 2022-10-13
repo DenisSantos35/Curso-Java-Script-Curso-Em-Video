@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>MENU DA MATEMATICA:</h1>
+    </header>
+    <section>
+        <div>
+            <strong>DIGITE O 1º NUMERO:</strong> <input type="number" name="num1" id="num1"></br>
+            <strong> DIGITE O 2º NUMERO:</strong> <input type="number" name="num2" id="num2"></br>
+        <p>
+            <input type="radio" name="menu" id="soma" checked>
+            <label for="soma"><STrong>SOMA</STrong></label></br>
+        </p>
+        <p>
+            <input type="radio" name="menu" id="mult">
+            <label for="mult"><strong>MULTIPLICAÇÃO</strong></label></br>
+        </p>
+        <p>
+            <input type="radio" name="menu" id="maior">
+            <label for="maior"><strong>NUMERO MAIOR</strong></label></br>
+        </p>
+        <p>
+            <input type="radio" name="menu" id="subtracao">
+            <label for="subtracao"><strong>SUBTRACAO</strong></label></br> 
+        </p>   
+        <p>
+            <input type="radio" name="menu" id="fatorial">
+            <label for="fatorial"><strong>FATORIAL DO 1º NUMERO</strong></label>
+        </p>   
+        <p>
+            <input type="radio" name="menu" id="fatorial2">
+            <label for="fatorial2"><strong>FATORIAL DO 2º NUMERO</strong></label>
+        </p> 
+        <p>
+            <input type="radio" name="menu" id="progressao1">
+            <label for="progressao1"><strong>PA DO NUMERO(Primeiro valor termo, segundo razao)</strong></label>
+        </p>  
+        <p>
+            <input type="radio" name="menu" id="fibonace">
+            <label for="fibonace"><strong>FIBONACI 1º NUMERO</strong></label>
+        </p> 
+        <p>
+            <input type="radio" name="menu" id="fibonace2">
+            <label for="fibonace2"><strong>FIBONACI 2º NUMERO</strong></label>
+        </p> 
+            <input type="button" value="VERIFICAR" onclick="verificar()">
+        </div>
+        <div id="res"><strong>Aguarde...</strong></div>
+    </section>
+    <footer>
+        &copy; <strong>Denis Diogo dos Santos</strong> 
+    </footer>
+    <script src="estilo.Js"></script>
+    
+</body>
+</html>
