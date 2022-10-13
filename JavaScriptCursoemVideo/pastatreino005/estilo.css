@@ -1,0 +1,77 @@
+body{
+    background: lightblue;
+    font: normal times;
+    color: black;
+
+}
+header{
+    width: 500px;
+    text-align: center;
+    box-shadow: 20px 15px 20px black;
+    padding: auto;
+    margin: auto;
+    border-radius: 30px;
+
+}
+
+div{
+    text-align: justify;
+    width: 300px;
+    text-align: center;
+    box-shadow: 20px 15px 20px black;
+    padding: auto;
+    margin: auto;
+    color: black;   
+    border-radius: 30px; 
+    background: rgb(102, 190, 219);
+
+}
+div#res{
+    border-radius: 30px;
+    background: rgb(15, 170, 221);
+    width: 400px;
+    color: white;
+}
+input#but{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20;
+    box-shadow: 20px 15px 20px black;
+    width: 400px;
+    
+}
+p#p1{
+    width: 400px;
+    text-align: center;
+    box-shadow: 20px 15px 20px black;
+    padding: auto;
+    margin: auto;
+    border-radius: 30px;
+    background: rgb(15, 170, 221);
+    color: black;
+}
+p#p2{
+    width: 400px;
+    text-align: center;
+    box-shadow: 20px 15px 20px black;
+    padding: auto;
+    margin: auto;
+    border-radius: 30px;
+    background: rgb(80, 221, 15);
+    color: white;
+}
+p{
+    width: 400px;
+    text-align: center;
+    box-shadow: 20px 15px 20px black;
+    padding: auto;
+    margin: auto;
+    border-radius: 30px;
+    background: rgb(119, 245, 60);
+    color: black;
+
+}
+footer{
+    font-style: italic;
+
+}
