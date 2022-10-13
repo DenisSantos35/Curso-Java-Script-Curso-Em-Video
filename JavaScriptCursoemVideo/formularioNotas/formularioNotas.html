@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projeto.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Formulario Notas:
+        </h1>
+    </header>
+    <section>
+        <div>
+            Aluno: <input type="text" name="aluno" id="aluno"><br>
+            Nota 1: <input type="number" name="n1" id="n1"><br>
+            Nota 2: <input type="number" name="n2" id="n2"><br>
+            <input type="button" value="CADASTRAR" onclick="cadastrar()"><br><br>
+            <select name="form" id="form" size="10"></select><br><br>
+            Selcione o numero correspondente ao aluno: <input type="number" name="corres" id="corres">
+            <input type="button" value="MOSTRAR DADOS" onclick="dados()">            
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        &copy; Denis Diogo dos Santos
+    </footer>
+    <script src="form.js"></script>
+    
+</body>
+</html>
