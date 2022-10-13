@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(97, 71, 71);
+            color: blue;
+        }
+        
+        h1{
+            font: normal arial 20pt;
+            color: aqua;
+            
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <h1> Exercicio pratica para javascript </h1>
+    <p>Pratica 1</p>
+    <script>
+        var n1 = Number(window.prompt('Escreva um numero'))
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+        var n2 = Number(window.prompt('escreva outro numero'))
+        n2.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+        var resultado = n1 + n2
+        window.alert(`A soma de ${n1.toFixed(2)} + ${n2.toFixed(2)} = ${resultado.toFixed(2)} `)
+        var n3 = Number(window.prompt('escreva outro numero'))
+        var multiplicacao = resultado * n3
+        window.alert(`A multiplicacao de ${resultado.toFixed(2)} e ${n3.toFixed(2)} = ${multiplicacao.toFixed(2)}`)
+        var n4 = Number(window.prompt('Digite outro numero'))
+        var divisao = multiplicacao / n4
+        window.alert(`o resulatdo final e = ${divisao.tofixed(2)}`)
+
+    </script>
+    
+</body>
+</html>
