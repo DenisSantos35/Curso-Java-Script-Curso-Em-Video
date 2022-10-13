@@ -1,0 +1,26 @@
+body{
+    background: darkgray;
+    font: normal 18pt arial;
+}
+header{
+    color: white;
+    text-align: center;
+    font: normal 12pt;
+}
+section{
+    width: 500px;   /*Largura 500px*/
+    padding: auto;  /*Preenchmento automatico*/
+    background: white;  /*cor de fundo branco*/
+    box-shadow: 20px 15px 20px black;   /*sombreamento 20px 15px 20px preto*/
+    color: rgb(11, 31, 206); /*cor letra vermelho*/
+    margin: auto;  /*Alinhamento automatico*/ 
+    border-radius: 10px;    /*borda arredondada*/
+}
+div{
+   text-align: center;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
