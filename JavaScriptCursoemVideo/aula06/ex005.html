@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com Dom</title>
+    <style>
+        body{
+            background: rgb(139, 132, 132);
+            color: white;
+            font: normal 18pt arial;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai um resultado</p>
+    <p>Aprendendo a usar <strong> DOM </strong> em JavaScript</p>
+    <div class= 'msg'>Clique em mim</div>
+    <script>
+       //   window.document.write('Ola Mundo')
+     // window.document.write(window.document.charset)
+     //window.document.write(window.navigator.appName)
+     //window.document.write(window.document.URL)
+     var corpo = window.document.body
+     var p1 = window.document.getElementsByTagName('p')[1]
+     /*window.document.write(' Esta escrito assim : ' + p1.innerText)
+     p1.style.color = 'blue'
+     corpo.style.background = 'red'
+     document.write(p1.innerText)
+     window.alert(p1.innerText)
+     var d = window.document.getElementById('msg')
+     d.style.background = 'black'
+     d.style.color = 'yellow'
+     d.innerText = 'Estou aguardando...'*/
+     //var d = window.document.getElementById("msg")
+     //d.innerText= "Ola!!"
+     var d =  window.document.querySelector('div.msg')
+     d.style.color = 'pink'
+     d.style.background = 'black'
+
+
+
+    </script>
+    
+</body>
+</html>
