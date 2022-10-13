@@ -1,0 +1,28 @@
+body{
+    font: normal 14pt times;
+    background: darkgray;
+}
+header{
+    width: 500px;
+    padding: center;
+    text-align: center;
+    background: red;
+    margin: auto;
+    box-shadow: 20px 15px 20px black;
+    border-radius: 10px;
+}
+div{
+    width: 500px;
+    padding: center;
+    text-align: center;
+    background: red;
+    margin: auto;
+    box-shadow: 20px 15px 20px black;
+    border-radius: 10px;
+}
+section{
+
+}
+footer{
+
+}
