@@ -1,0 +1,56 @@
+body{
+    background: chartreuse;
+    font: normal 15pt times;
+}
+header{
+    width: 500px;
+    padding: center;
+    box-shadow: 30px 15px 20px black;
+    text-align: center;
+    border-radius: 20px;
+
+}
+section{
+    
+}
+input#txttime1{
+    width: 80px;
+    padding: center;
+    box-shadow: 30px 15px 20px black;
+    text-align: center;
+}
+input#txttime2{
+    width: 80px;
+    padding: center;
+    box-shadow: 30px 15px 20px black;
+    text-align: center;
+}
+input#gols1{
+    width: 50px;
+    padding: center;
+    box-shadow: 30px 15px 20px black;
+    text-align: center;
+}
+input#gols2{
+    width: 50px;
+    padding: center;
+    box-shadow: 30px 15px 20px black;
+    text-align: center; 
+
+}
+input#but{
+    width: 150px;
+    padding: center;
+    box-shadow: 30px 15px 20px black;
+    text-align: center;
+    margin: hig;
+}
+footer{
+    width: 300px;
+    padding: center;
+    box-shadow: 30px 15px 20px black;
+    text-align: center;
+    border-radius: 12px;
+
+
+}
